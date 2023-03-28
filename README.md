@@ -47,5 +47,5 @@ libcurl:
 ### Compiling:
  
   ```
-  gcc otel_example.c <libcjson so/dynlib> <libcurl so.dynlib>
+  gcc otel-example.c <libcjson so/dynlib> <libcurl so.dynlib>
   ```
