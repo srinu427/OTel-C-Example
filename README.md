@@ -49,3 +49,7 @@
   ```
   gcc otel-example.c <libcjson so/dynlib> <libcurl so.dynlib>
   ```
+  
+## Notes:
+  By default it pushes data to 0.0.0.0 expecting a OTLP exporter running with HTTP port on 4318
+  To Quickly run OTLP exporter on your local machine run `docker-compose up` in the root of the git repo files
