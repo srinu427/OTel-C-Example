@@ -1,6 +1,6 @@
 # OTel-C-Example
 
-Dependencies:
+### Dependencies:
   1. cmake: To build dependencies
   2. cJSON: Json Serilization Library [https://github.com/DaveGamble/cJSON]
   3. libcurl: For HTTP post to OTLP endpoint
