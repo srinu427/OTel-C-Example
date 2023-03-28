@@ -1,12 +1,12 @@
 # OTel-C-Example
 
-### Dependencies:
+## Dependencies:
   1. cmake: To build dependencies
   2. cJSON: Json Serilization Library [https://github.com/DaveGamble/cJSON]
   3. libcurl: For HTTP post to OTLP endpoint
   
-### Building Dependencies:
-cJSON:
+## Building Dependencies:
+### cJSON:
   1. From Git Source
   
       ```
@@ -25,7 +25,7 @@ cJSON:
       ```
       apt install libcjson-dev
       ```
-libcurl:
+### libcurl:
   1. Yum
     
       ```
@@ -44,7 +44,7 @@ libcurl:
       apt install libcurl4-openssl-dev
       ```
       
-### Compiling:
+## Compiling:
  
   ```
   gcc otel-example.c <libcjson so/dynlib> <libcurl so.dynlib>
